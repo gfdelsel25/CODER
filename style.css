@@ -1,0 +1,377 @@
+/*  */
+html{font-size: 62,5%;}
+
+
+
+body{background-color: #bbb;
+
+
+}
+
+.img__logo {
+  display: inline-block;
+  width: 95px ; height: 95px; padding-left: 10px;margin: 10px;
+
+}
+
+
+.img{
+max-width: 55%;
+max-height: 55%;
+position:static;
+}
+
+.h1__ppal {
+  display: inline-block;
+  text-align: center;
+  background-color: blue;
+  margin: 4px 4px 40px 4px;
+  padding: 1px 1px 1px 1px;
+  color: #bbb;
+  text-decoration: solid;
+  position: relative;
+  left: 500px;
+  
+}
+.h2__ppal {
+  display: block;
+  text-align: center;
+  background-color: blue;
+  margin: 40px 4px 4px 4px;
+  padding: 1px 1px 1px 1px;
+  color: #bbb;
+}
+
+h3__ppal {
+  display: inline;
+  text-align: left;
+  background-color: blue;
+  margin: 40px 4px 4px 4px;
+  padding: 1px 1px 1px 1px;
+  color: #bbb;
+}
+
+h4__ppal {
+  display: block;
+  text-align: center;
+  background-color: blue;
+  margin: 40px 4px 4px 4px;
+  padding: 1px 1px 1px 1px;
+  color: #bbb;
+}
+
+.menusuperior {
+
+display: inline-block;
+position: absolute;
+text-align: right;
+font-size:large ;
+left: 900px  ;
+
+
+}
+
+.imagenppal{
+  height: 1000px; ;
+  width: 1000px;
+  display:inline-block;
+  position: relative;
+  left: 800px;
+  margin: 5px 5px 5px 2px;
+  }
+
+.textoimgppal{
+  margin-left: 10ox;
+  width: 500px;
+  display: inline-block;
+  position: absolute;
+  margin: 1px 1px 1px 1px;
+  text-align: left;
+}
+.textoregistro{
+  width: 7  00px;
+  display: inline-block;
+  margin: 5px 30px 50px 20px;
+  text-align: left;
+}
+
+.ul{
+  background-color: #bbb;;
+}
+
+.linkrecetappal {
+  display: block;
+  margin: 20px 30px 5px 10px;
+  text-align: left;
+}
+
+.textorecetappal{
+  width: 500px;
+  display: inline-block;
+  margin: 5px 30px 50px 20px;
+  text-align: left;
+}
+
+.textorecetasec{
+  width: 250px;
+  display: inline-block;
+  margin: 5px 30px 50px 20px;
+  text-align: left;
+}
+
+.imagenrecetappal{
+  width: 500px;
+  display: inline-block;
+  margin: 5px 30px 100px 20px;
+  text-align: left;
+}
+.imagenrecetasec{
+  width: 250px;
+  display: inline-block;
+  margin: 5px 30px 100px 20px;
+  text-align: left;
+}
+
+
+.iconosred{
+  width: 120px;
+  display: inline-block;
+  align-items: center;
+}
+
+h2 {text-align: center;text-decoration:aliceblues}
+
+li{
+padding-right: 5px;
+background-color: rgb(212, 212, 178);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: #bbb;
+
+}
+
+nav li {
+  display: inline-block; 
+  text-align: right;
+  color:rgb(0, 38, 255);
+  margin: right 10px;
+  text-decoration:double
+}
+
+.cuad{
+  width: 120px;
+  height: 120px;
+  border: 5px solid;
+ 
+  
+  }
+  .img{
+    height: 550px; ;
+    width: 620px; ;
+    border: 5px solid;
+    position: relative;
+    left: 520px;
+    
+    
+    }
+    
+    .cuad1{
+      width: 420px;
+      height: 420px;
+      position: absolute;
+      left: 50px;
+      top: 190px;
+         
+      }
+
+      .h4 {
+        display: inline-block;
+        margin-top: 100px;
+        border: solid black;
+      }
+.sexo{
+  display: inline-block;
+  margin-top: 20px;
+
+}
+.form{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+/* para posiconar imagen y texto superiores */
+.img{
+  height: 450px; ;
+  width: 550px; ;
+  border: 5px solid;
+  position: relative;
+  left: 600px;
+    
+  
+  }
+  
+  .cuad1{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+  
+    }
+ /* fin para posiconar imagen y texto superiores */  
+
+/* para posiconar la primera lìnea imagenes y texto en la pàgina de carnes, pastas, verduras */
+     .imgpri{
+       height: 150px; ;
+        width: 150px; ;
+        border: 5px solid;
+        position: relative;
+        left: 100px;
+        top: 150px;
+           
+      }
+      
+      .cuad1pri{
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 50px;
+        top: 495px;
+             
+        }
+
+
+    .imgseg{
+      height: 150px; ;
+      width: 150px; ;
+      border: 5px solid;
+      position: relative;
+      left: 350px;
+      top: 150px;
+            
+      }
+      
+      .cuad1seg{
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 450px;
+        top: 495px;
+          
+        }
+  
+        .imgter{
+          height: 150px; ;
+          width: 150px; ;
+          border: 5px solid;
+          position: relative;
+          left: 550px;
+          top: 150px;    
+          
+          }
+          
+          .cuad1ter{
+            width: 300px;
+            height: 100px;
+            position: absolute;
+            left: 850px;
+            top: 495px;
+              
+            }
+/*fin de posicionamiento de primera lìnea  */
+/* posicionamiento segunda lìnea */
+           .imgpriseg{
+            height: 150px; ;
+             width: 150px; ;
+             border: 5px solid;
+             position: relative;
+             left: -400px;
+             top: 450px;
+                
+           }
+           
+           .cuad1priseg{
+             width: 300px;
+             height: 100px;
+             position: absolute;
+             left: 50px;
+             top: 800px;
+                  
+             }
+     
+     
+         .imgsegseg{
+           height: 150px; ;
+           width: 150px; ;
+           border: 5px solid;
+           position: relative;
+           left: -150px;
+           top: 450px;
+                 
+           }
+           
+           .cuad1segseg{
+             width: 300px;
+             height: 100px;
+             position: absolute;
+             left: 450px;
+             top: 800px;
+               
+             }
+       
+             .imgterseg{
+               height: 150px; ;
+               width: 150px; ;
+               border: 5px solid;
+               position: relative;
+               left: 80px;
+               top: 450px;    
+               
+               }
+               
+               .cuad1terseg{
+                 width: 300px;
+                 height: 100px;
+                 position: absolute;
+                 left: 850px;
+                 top: 800px;
+                   
+                 }
+
+/*iconos de redes sociales  */
+.face
+{
+  position: relative;
+  left: 500px;
+}
+.inst
+{
+  position: relative;
+  left: 540px;
+}
+.wa
+{
+  position: relative;
+  left: 520px;
+}
+
+/* -------posicion redes paginas secudarias---------------- */
+.facesec
+{
+  position: absolute;
+  left: 500px;
+  bottom: -600px;
+
+}
+
+.wasec
+{
+  position: absolute;
+  left: 550px;
+  bottom: -600px;
+}
+.instsec
+{
+  position: absolute;
+  left: 610px;
+  bottom: -600px;
+}
+
+/* ol{list-style-type: lower-roman;} */

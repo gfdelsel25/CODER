@@ -1,0 +1,550 @@
+/*  */
+html{font-size: 62,5%;}
+
+
+
+body{background-color: #bbb;}
+
+.grilla{
+display: grid;
+grid-template-rows:  70px 70px 500px 200px 200px 200px 150px;
+grid-column: 1fr 1fr 1fr; 
+grid-template-areas: 
+"titulo titulo"
+"logo menu"
+"grantexto  granimagen"
+"carnetex carneimg"
+"pastatex pastaimg"
+"verduratex verduraimg"
+"pie pie";
+grid-row-gap: 10px;
+
+}
+
+.info{
+background-color: rgb(226, 128, 43);
+
+}
+
+.img__logo{
+  grid-area:logo;
+  height: 70px;
+  width: 70px;
+} 
+
+
+.menusuperior{
+grid-area: menu;
+background-image: linear-gradient(right blue green);
+
+}
+
+.secppal{
+  background-color: blanchedalmond;
+
+}
+
+.textoppal{
+grid-area: grantexto;
+background-color: rgb(85, 209, 145);
+align-items:center ;
+align-content: center;
+padding: 10px 30px 10px 10px;
+font-size: 20px;
+}
+
+.imagenppal{
+grid-area: granimagen ;
+background-color:  rgb(85, 209, 145));
+align-items: center;
+align-content: center;
+justify-content: center;
+padding: 0px 10px 10px 0px;
+}
+
+.textocarne{
+  grid-area:carnetex ;
+  padding: 30px 100px 10px 10px;
+  align-items: left;
+}
+
+.imagencarne{
+grid-area:carneimg ;
+padding: 30px;
+padding-left: 0px;
+padding-bottom: 60px;
+margin-bottom: 30px;
+}
+
+.imagencarne:hover{
+transform: rotate(90);
+
+}
+
+ 
+
+.textopastas{
+  grid-area: pastatex;
+  padding: 30px 100px 10px 10px;
+  align-items: left;
+}
+
+.imagenpastas{
+grid-area:pastaimg ;
+padding: 30px;
+padding-left: 0px;
+padding-bottom: 30px;
+}
+
+.textoverduras{
+  grid-area:verduratex ;
+  padding: 30px 100px 10px 10px;
+  align-items: left;
+}
+
+.imagenverduras{
+grid-area:verduraimg ;
+padding: 30px;
+padding-left: 0px;
+padding-bottom: 30px;
+}
+
+ .footer{
+  grid-area: pie;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+ }
+
+ .iconosredes{
+  display: inline-block;
+  
+ }
+ .hederredes{
+display: inline-block;
+
+ }
+
+
+
+.titulo{
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font: size 40px;
+background-color: blueviolet;
+  
+ 
+}
+
+
+@keyframes titular {
+  0%{ opacity: 0.5;}
+  100%{ opacity: 1;}
+
+}
+
+
+
+.img{
+max-width: 55%;
+max-height: 55%;
+position:static;
+}
+
+.h1__ppal {
+ 
+  background-color: blue;
+    color: #bbb;
+  text-decoration: solid;
+ 
+  
+}
+.h2__ppal {
+  display: inline-block;
+  text-align: center;
+  background-color: blue;
+  margin: 40px 4px 4px 4px;
+  padding: 1px 1px 1px 1px;
+  color: #bbb;
+}
+
+h3__ppal {
+  display: inline;
+  text-align: left;
+  background-color: blue;
+  margin: 40px 4px 4px 4px;
+  padding: 1px 1px 1px 1px;
+  color: #bbb;
+}
+
+h4__ppal {
+  display: block;
+  text-align: center;
+  background-color: blue;
+  margin: 40px 4px 4px 4px;
+  padding: 1px 1px 1px 1px;
+  color: #bbb;
+}
+
+.menusuperior {
+
+display: inline-block;
+position: absolute;
+text-align: right;
+font-size:large ;
+left: 900px  ;
+
+
+}
+
+
+
+.textoimgppal{
+  margin-left: 10ox;
+  width: 500px;
+  display: inline-block;
+  position: absolute;
+  margin: 1px 1px 1px 1px;
+  text-align: left;
+}
+.textoregistro{
+  width: 7  00px;
+  display: inline-block;
+  margin: 5px 30px 50px 20px;
+  text-align: left;
+}
+
+.ul{
+  background-color:chocolate;
+}
+
+.linkrecetappal {
+  display: block;
+  margin: 20px 30px 5px 10px;
+  text-align: left;
+}
+
+.textorecetappal{
+  width: 500px;
+  display: inline-block;
+  margin: 5px 30px 50px 20px;
+  text-align: left;
+}
+
+.textorecetasec{
+  width: 250px;
+  display: inline-block;
+  margin: 5px 30px 50px 20px;
+  text-align: left;
+}
+
+.imagenrecetappal{
+  width: 500px;
+  display: inline-block;
+  margin: 5px 30px 100px 20px;
+  text-align: left;
+}
+.imagenrecetasec{
+  width: 250px;
+  display: inline-block;
+  margin: 5px 30px 100px 20px;
+  text-align: left;
+}
+
+
+.iconosred{
+  width: 120px;
+  display: inline-block;
+  align-items: center;
+}
+
+h2 {text-align: center;text-decoration:aliceblues}
+
+/* ------------------------------------------------ */
+
+/* decorado contenedor de menu */
+nav {background-color: rgb(26, 35, 93);}
+
+/* letras de items de menu */
+nav a {
+  text-decoration:solid;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+
+/* lista madre */
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* cada uno de los elementos topes del menu  */
+ul li {display: inline-block;}
+
+/* efectos para elementos topes del menu, cambia color de fondo */
+ul li:hover {background:rgb(79, 88, 151);
+  transform: scale(1.1)}
+
+/* despliegue de cada una de las listas que de abren debajo de los elementos top del menu */
+ul li:hover ul {display: block;}
+
+  
+ul li ul {
+  position: absolute;
+  width: 180px;
+  display: none;
+  font-size: 30px;
+  
+}
+
+/* formato del contenedor de la lista desplegada */
+ul li ul li {   
+  background: rgb(27, 117, 126); 
+  display: block; 
+  height: 70px;
+  text-align: center;
+
+}
+
+
+ul li ul li a {display:flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+} 
+
+/* efecto al posicional el mouse en cada uno de los elementos deplegados */
+ul li ul li:hover {background: rgb(45, 93, 196);
+}   
+
+/* -------------------------------------------------------------- */
+
+
+.cuad{
+  width: 120px;
+  height: 120px;
+  border: 5px solid;
+ 
+  
+  }
+  .img{
+    height: 550px; ;
+    width: 620px; ;
+    border: 5px solid;
+    position: relative;
+    left: 520px;
+    
+    
+    }
+    
+    .cuad1{
+      width: 420px;
+      height: 420px;
+      position: absolute;
+      left: 50px;
+      top: 190px;
+         
+      }
+
+      .h4 {
+        display: inline-block;
+        margin-top: 100px;
+        border: solid black;
+      }
+.sexo{
+  display: inline-block;
+  margin-top: 20px;
+
+}
+.form{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+/* para posiconar imagen y texto superiores */
+.img{
+  height: 450px; ;
+  width: 550px; ;
+  border: 5px solid;
+  position: relative;
+  left: 600px;
+    
+  
+  }
+  
+  .cuad1{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+  
+    }
+ /* fin para posiconar imagen y texto superiores */  
+
+/* para posiconar la primera lìnea imagenes y texto en la pàgina de carnes, pastas, verduras */
+     .imgpri{
+       height: 150px; ;
+        width: 150px; ;
+        border: 5px solid;
+        position: relative;
+        left: 100px;
+        top: 150px;
+           
+      }
+      
+      .cuad1pri{
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 50px;
+        top: 495px;
+             
+        }
+
+
+    .imgseg{
+      height: 150px; ;
+      width: 150px; ;
+      border: 5px solid;
+      position: relative;
+      left: 350px;
+      top: 150px;
+            
+      }
+      
+      .cuad1seg{
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 450px;
+        top: 495px;
+          
+        }
+  
+        .imgter{
+          height: 150px; ;
+          width: 150px; ;
+          border: 5px solid;
+          position: relative;
+          left: 550px;
+          top: 150px;    
+          
+          }
+          
+          .cuad1ter{
+            width: 300px;
+            height: 100px;
+            position: absolute;
+            left: 850px;
+            top: 495px;
+              
+            }
+/*fin de posicionamiento de primera lìnea  */
+/* posicionamiento segunda lìnea */
+           .imgpriseg{
+            height: 150px; ;
+             width: 150px; ;
+             border: 5px solid;
+             position: relative;
+             left: -400px;
+             top: 450px;
+                
+           }
+           
+           .cuad1priseg{
+             width: 300px;
+             height: 100px;
+             position: absolute;
+             left: 50px;
+             top: 800px;
+                  
+             }
+     
+     
+         .imgsegseg{
+           height: 150px; ;
+           width: 150px; ;
+           border: 5px solid;
+           position: relative;
+           left: -150px;
+           top: 450px;
+                 
+           }
+           
+           .cuad1segseg{
+             width: 300px;
+             height: 100px;
+             position: absolute;
+             left: 450px;
+             top: 800px;
+               
+             }
+       
+             .imgterseg{
+               height: 150px; ;
+               width: 150px; ;
+               border: 5px solid;
+               position: relative;
+               left: 80px;
+               top: 450px;    
+               
+               }
+               
+               .cuad1terseg{
+                 width: 300px;
+                 height: 100px;
+                 position: absolute;
+                 left: 850px;
+                 top: 800px;
+                   
+                 }
+
+/*iconos de redes sociales  */
+.face
+{
+  position: relative;
+ padding-right: 25px;
+}
+.inst
+{
+  position: relative;
+  padding: left 30px;
+ 
+}
+.wa
+{
+  position: relative;
+padding-right: 25px;  
+}
+
+/* -------posicion redes paginas secudarias---------------- */
+.facesec
+{
+  position: absolute;
+  left: 500px;
+  bottom: -600px;
+
+}
+
+.wasec
+{
+  position: absolute;
+  left: 550px;
+  bottom: -600px;
+}
+.instsec
+{
+  position: absolute;
+  left: 610px;
+  bottom: -600px;
+}
+
+/* ol{list-style-type: lower-roman;} */

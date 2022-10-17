@@ -1,0 +1,19 @@
+/*  */
+html{font-size: 62,5%;}
+
+
+
+/* ol{list-style-type: lower-roman;} */
+.cuadro{
+  display: inline-block;
+
+  height: 100px;
+  width: 190px;
+  background-color: blue;
+  border: solid black;
+  }
+
+  .cuadro:hover{
+    background-image: linear-gradient(to right blue green);
+    transform: rotate3d(90);
+  }
