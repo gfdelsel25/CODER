@@ -35,7 +35,14 @@ background-color: rgb(226, 128, 43);
 
 .menusuperior{
 grid-area: menu;
+display: flex;
 background-image: linear-gradient(right blue green);
+width: 650px;
+padding-right: 00px;
+margin-right: 100px;
+
+}
+.cntacto{padding-right: 50px;
 
 }
 
@@ -274,14 +281,14 @@ nav {background-color: rgb(26, 35, 93);}
 nav a {
   text-decoration:solid;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px;
   display:inline-block;
 }
 
 /* lista madre */
 ul {
-  display: inline;
+  display: inline-block;
   margin: 0;
   padding: 0;
 }
@@ -302,7 +309,7 @@ ul li ul {
   position: absolute;
   width: 180px;
   display: none;
-  font-size: 30px;
+  font-size: 20px;
   
 }
 
